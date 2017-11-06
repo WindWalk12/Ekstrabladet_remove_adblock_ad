@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Ekstrabladet_remove_ads
-// @namespace    https://github.com/WindWalk12/KissMALMigration
+// @namespace    https://github.com/WindWalk12/Ekstrabladet_remove_ads
 // @version      1.0
 // @description  Remove adblock ad
 // @author       WindWalk
-// @match        http://*/*
+// @match        https://*/*
 // @grant        none
 // ==/UserScript==
 
