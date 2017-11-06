@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         KissMALMigration
+// @name         Ekstrabladet_remove_ads
 // @namespace    https://github.com/WindWalk12/KissMALMigration
 // @version      1.0
 // @description  Remove adblock ad
@@ -22,4 +22,4 @@ if (url1.test(url)) {
 	script.type = 'text/javascript';
 	document.getElementsByTagName('head')[0].appendChild(script);
 
-	document.getElementsByClassName('p-absolute p-absolute--fill').parent().remove();
+	$('body').find('div:nth-child(5)').remove();
