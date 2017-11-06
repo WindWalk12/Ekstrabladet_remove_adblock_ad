@@ -23,4 +23,8 @@ if (url1.test(url)) {
 	document.getElementsByTagName('head')[0].appendChild(script);
 }
 
-	$('body').find('div .p-absolute').parent().remove();
+setTimeout(
+  function() 
+  {
+    $('body').find('div .p-absolute').parent().remove();
+  }, 5000);
