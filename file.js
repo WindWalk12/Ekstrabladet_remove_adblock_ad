@@ -12,7 +12,7 @@
 const url = window.location.href;
 
 //Check if they are on kissanime
-const url1 = /^http:\/\/+ekstrabladet\.dk\/[A-Z]*/g;
+const url1 = /^https:\/\/+ekstrabladet\.dk\/[A-Z]*/g;
 
 if (url1.test(url)) {
 	
