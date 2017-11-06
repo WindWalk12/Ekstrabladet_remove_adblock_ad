@@ -27,4 +27,4 @@ setTimeout(
   function() 
   {
     $('body').find('div .p-absolute').parent().remove();
-  }, 5000);
+  }, 4000);
