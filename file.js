@@ -23,4 +23,4 @@ if (url1.test(url)) {
 	document.getElementsByTagName('head')[0].appendChild(script);
 }
 
-	$('body').find('div:nth-child(5)').remove();
+	$('body').find('div .p-absolute').parent().remove();
