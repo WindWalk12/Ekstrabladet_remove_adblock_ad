@@ -21,5 +21,6 @@ if (url1.test(url)) {
 	script.src = 'https://code.jquery.com/jquery-3.2.0.min.js';
 	script.type = 'text/javascript';
 	document.getElementsByTagName('head')[0].appendChild(script);
+}
 
 	$('body').find('div:nth-child(5)').remove();
