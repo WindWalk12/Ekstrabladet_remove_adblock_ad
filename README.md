@@ -1,2 +1,2 @@
-# Ekstrabladet_remove_ads
-Remove add of disable addblock
+# Ekstrabladet_remove_adblock_ad
+Remove add of disable adblock
