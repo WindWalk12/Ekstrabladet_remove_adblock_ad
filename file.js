@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Remove adblock ad
 // @author       WindWalk
-// @match        https://*/*
+// @match        https://ekstrabladet.dk/*
 // @grant        none
 // ==/UserScript==
 
