@@ -11,7 +11,7 @@
 //determen URL
 const url = window.location.href;
 
-//Check if they are on kissanime
+//Check if they are on ekstrabladet
 const url1 = /^https:\/\/+ekstrabladet\.dk\/[A-Z]*/g;
 
 if (url1.test(url)) {
